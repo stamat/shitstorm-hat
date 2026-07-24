@@ -35,7 +35,18 @@ poops.json    # build + serve config
 
 ## Quick start
 
+Scaffold a project from this template with [create-poops](https://github.com/stamat/create-poops):
+
 ```bash
+npm create poops@latest my-app hat
+```
+
+Omit the template name to pick from a prompt (`base`, `sulphuris`, `hat`), or omit the target directory to scaffold into the current one. Needs `git` on your `PATH`; the clone's history is dropped so you start clean.
+
+Then:
+
+```bash
+cd my-app
 npm install
 npm run dev
 ```
