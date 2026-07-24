@@ -2,13 +2,13 @@
   "private": true,
   "name": "shitstorm-hat",
   "version": "1.0.0",
-  "description": "Poops project template",
+  "description": "Poops project template - htmlx, alpinejs, tailwindcss",
   "main": "src/scripts/script.js",
   "style": "src/styles/index.scss",
-  "homepage": "https://stamat.github.io/shitstorm/",
+  "homepage": "https://stamat.github.io/shitstorm-hat/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stamat/shitstorm.git"
+    "url": "https://github.com/stamat/shitstorm-hat.git"
   },
   "keywords": [
     "poops",
@@ -18,7 +18,7 @@
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stamat/shitstorm/issues"
+    "url": "https://github.com/stamat/shitstorm-hat/issues"
   },
   "scripts": {
     "dev": "poops",
