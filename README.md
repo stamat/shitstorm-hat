@@ -6,22 +6,22 @@ A small [Poops](https://github.com/stamat/poops/) template for static sites with
 
 ## Out-of-the-box stack
 
-| Layer         | Included                                                               |
-| ------------- | ---------------------------------------------------------------------- |
-| Runtime       | Node.js + npm                                                          |
-| Build tool    | `poops` (`npm run dev`, `npm run build`)                               |
-| Scripts       | ES modules from `src/scripts/script.js`                                |
-| Styles        | SCSS entry points in `src/styles/`                                     |
-| CSS framework | Tailwind CSS v4 via the `postcss` pipeline (`src/styles/tailwind.css`) |
-| Interactivity | Alpine.js + htmx, bundled into `src/scripts/script.js`                 |
-| Markup        | Markdown content + layout templating in `src/markup/`                  |
-| Data          | YAML data files (example: `src/markup/_data/fonts.yaml`)               |
-| Static assets | Copied from `src/static` to `dist`                                     |
-| Dev UX        | Local server on port `4040` + live reload                              |
-| Lint          | ESLint (JS) + Stylelint (SCSS)                                         |
-| Tests         | Jest (`npm test`)                                                      |
-| CI            | GitHub Actions — lint + test on push/PR, deploy on `main`              |
-| Output        | Built site in `dist/` with minified assets + source maps               |
+| Layer         | Included                                                                                             |
+| ------------- | ---------------------------------------------------------------------------------------------------- |
+| Runtime       | Node.js + npm                                                                                        |
+| Build tool    | `poops` (`npm run dev`, `npm run build`)                                                             |
+| Scripts       | ES modules from `src/scripts/script.js`                                                              |
+| Styles        | SCSS entry points in `src/styles/`                                                                   |
+| CSS framework | [Tailwind CSS](https://tailwindcss.com/) v4 via the `postcss` pipeline (`src/styles/tailwind.css`)   |
+| Interactivity | [Alpine.js](https://alpinejs.dev/) + [htmx](https://htmx.org/), bundled into `src/scripts/script.js` |
+| Markup        | Markdown content + layout templating in `src/markup/`                                                |
+| Data          | YAML data files (example: `src/markup/_data/fonts.yaml`)                                             |
+| Static assets | Copied from `src/static` to `dist`                                                                   |
+| Dev UX        | Local server on port `4040` + live reload                                                            |
+| Lint          | ESLint (JS) + Stylelint (SCSS)                                                                       |
+| Tests         | Jest (`npm test`)                                                                                    |
+| CI            | GitHub Actions — lint + test on push/PR, deploy on `main`                                            |
+| Output        | Built site in `dist/` with minified assets + source maps                                             |
 
 ## Project structure
 

@@ -44,6 +44,13 @@
   <div class="mx-auto max-w-3xl px-6 py-12">
     {% block content %} {% endblock %}
   </div>
+  <footer class="flex items-center justify-center gap-2 pb-12 text-sm text-slate-500">
+    Made with
+    <a href="https://github.com/stamat/poops/" title="Poops">
+      <img src="{{ relativePathPrefix }}static/poop.png" alt="Poops" width="24" height="24">
+    </a>
+    by <a href="https://github.com/stamat" class="text-slate-400 hover:text-white">@stamat</a>
+  </footer>
   <script>hljs.highlightAll();</script>
   <script async type="text/javascript" src="{{ relativePathPrefix }}scripts/script.min.js"></script>
 

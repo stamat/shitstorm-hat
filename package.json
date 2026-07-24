@@ -2,7 +2,7 @@
   "private": true,
   "name": "shitstorm-hat",
   "version": "1.0.0",
-  "description": "Poops project template - htmlx, alpinejs, tailwindcss",
+  "description": "Poops project template - htmx, alpinejs, tailwindcss",
   "main": "src/scripts/script.js",
   "style": "src/styles/index.scss",
   "homepage": "https://stamat.github.io/shitstorm-hat/",
