@@ -10,6 +10,8 @@ A small [Poops](https://github.com/stamat/poops/) template for static sites with
 | Build tool | `poops` (`npm run dev`, `npm run build`) |
 | Scripts | ES modules from `src/scripts/script.js` |
 | Styles | SCSS entry points in `src/styles/` |
+| CSS framework | Tailwind CSS v4 via the `postcss` pipeline (`src/styles/tailwind.css`) |
+| Interactivity | Alpine.js + htmx, bundled into `src/scripts/script.js` |
 | Markup | Markdown content + layout templating in `src/markup/` |
 | Data | YAML data files (example: `src/markup/_data/fonts.yaml`) |
 | Static assets | Copied from `src/static` to `dist` |
