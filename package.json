@@ -24,12 +24,15 @@
     "dev": "poops",
     "build": "poops -b",
     "lint": "eslint . && stylelint \"src/**/*.scss\"",
-    "test": "jest"
+    "test": "jest",
+    "lint:es": "es-check es2020 \"dist/scripts/*.js\"",
+    "lint:browsers": "stylelint --config stylelint.browsers.config.mjs --max-warnings 0 \"dist/styles/style.css\" \"dist/styles/tailwind.css\""
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@jest/globals": "^30.2.0",
     "@tailwindcss/postcss": "^4.3.3",
+    "es-check": "^9.6.4",
     "eslint": "^10.7.0",
     "globals": "^17.7.0",
     "jest": "^30.4.2",
@@ -37,6 +40,7 @@
     "postcss": "^8.5.23",
     "stylelint": "^17.14.1",
     "stylelint-config-standard-scss": "^17.0.0",
+    "stylelint-no-unsupported-browser-features": "^8.1.1",
     "tailwindcss": "^4.3.3"
   },
   "overrides": {
