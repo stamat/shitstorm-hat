@@ -27,9 +27,11 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@jest/globals": "^30.2.0",
     "@tailwindcss/postcss": "^4.3.3",
     "eslint": "^10.7.0",
-    "@jest/globals": "^30.2.0",
+    "globals": "^17.7.0",
     "jest": "^30.4.2",
     "poops": "^2.0.0",
     "postcss": "^8.5.23",
